@@ -1,0 +1,55 @@
+.asside{
+position: relative;
+}
+
+.show{
+  display: block;
+  width: 100% !important;
+  position: relative;
+}
+.closeIcon{
+  display: none;
+  position: absolute;
+  right: 15px;
+  top:15px;
+  font-weight: bold; 
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.user{
+  height: calc(100% - 59px - 32px - 2px);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width:1064px) {
+.chatApp{
+  display: none;
+}
+}
+@media (max-width:620px) {
+.chatUserName{
+  display: none;
+}
+}
+
+@media (max-width:410px) {
+
+.asside{
+  display: none;
+}
+.show{
+  display: block;
+  width: 100% !important;
+}
+
+.closeIcon{
+  display: block;
+
+}
+
+}
+

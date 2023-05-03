@@ -1,0 +1,56 @@
+.ChatPartDiv {
+  position: relative;
+}
+
+.xcv{
+
+  display: block;
+}
+.burgerIcon {
+  display: none;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: aliceblue;
+  z-index: 1000;
+}
+
+.closeIcon {
+  display: none;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: aliceblue;
+  z-index: 1000;
+}
+
+.chatBox {
+  height: calc(100% - 64px - 56px);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 410px) {
+  .burgerIcon {
+    display: block;
+  }
+  
+  .title {
+    visibility: hidden;
+  }
+
+  .ChatPartDiv {
+    display: block;
+  }
+  .xcv {
+    display: none;
+  }
+}

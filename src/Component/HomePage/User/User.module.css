@@ -1,0 +1,14 @@
+@media (max-width:631px) {
+  .userName{
+    display: none;
+  }
+  
+  }
+  
+@media (max-width:410px) {
+  .userName{
+    display: block;
+  }
+  
+  }
+  
